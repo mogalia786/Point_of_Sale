@@ -1,0 +1,321 @@
+[Root]
+Most Recent Package=Backoffice Setup Package 2
+Most Recent Deploy=AEC BACKOFFICE Deployment 1
+
+
+[Package|AEC Backoffice Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Pack1
+
+[Package|AEC Backoffice Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AEC Backoffice Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AEC Backoffice Setup Package 1|Files Found]
+
+[Package|AEC Backoffice Setup Package 1|Files Released]
+
+[Package|AEC Backoffice Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\LVbuttons.ocx=
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|AEC Backoffice Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|AEC Backoffice Setup Package 1|Files Added]
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=
+
+[Package|AEC Backoffice Setup Package 1|Files Removed]
+
+[Package|AEC Backoffice Setup Package 1|Files In Project]
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\POSBackOffice.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\OLEPRO32.DLL=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=Yes
+C:\WINDOWS\system32\LVbuttons.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=Yes
+
+[Package|AEC Backoffice Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|AEC Backoffice Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|AEC Backoffice Setup Package 1|Install Locations]
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\POSBackOffice.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+C:\WINDOWS\system32\LVbuttons.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=$(AppPath)
+
+[Package|AEC Backoffice Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\POSBackOffice.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=No
+
+[Package|AEC Backoffice Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Carousel Backoffice
+
+[Package|AEC Backoffice Setup Package 1|IconGroups]
+Group0=Carousel Backoffice
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|AEC Backoffice Setup Package 1|Carousel Backoffice]
+Icon1=POSBackOffice.EXE
+Title1=Carousel Backoffice
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AEC Backoffice Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Pack1
+ProjectFolder=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice
+ServerSideCab=
+File1=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Pack1\setup.exe
+File2=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Pack1\Setup.Lst
+File3=C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Pack1\POSBackOffice.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Backoffice Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Pack1
+
+[Package|Backoffice Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Backoffice Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Backoffice Setup Package 2|Files Found]
+bground.jpg=C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\bground.jpg
+
+[Package|Backoffice Setup Package 2|Files Released]
+
+[Package|Backoffice Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\LVbuttons.ocx=
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Backoffice Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Backoffice Setup Package 2|Files Added]
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\bground.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\buttondn.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\buttonup.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\closedn.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\closeup.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\radiooff.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\radioon.jpg=
+c:\documents and settings\faizel\desktop\aec branches\multiuser\backoffice\temp.mdb=
+
+[Package|Backoffice Setup Package 2|Files Removed]
+
+[Package|Backoffice Setup Package 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\OLEPRO32.DLL=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=Yes
+C:\WINDOWS\system32\LVbuttons.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\bground.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioOFF.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioON.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\Temp.mdb=Yes
+C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\POSBackOffice.exe=Yes
+
+[Package|Backoffice Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Backoffice Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Backoffice Setup Package 2|Install Locations]
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\POSBackOffice.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+C:\WINDOWS\system32\LVbuttons.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\POSBackOffice.exe=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\Temp.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\POSBackOffice.exe=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\Temp.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\POSBackOffice.exe=$(AppPath)
+
+[Package|Backoffice Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\POSBackOffice.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\BackOffice\Temp.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\POSBackOffice.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\BackOffice\Temp.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\POSBackOffice.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\MULTIUSER\BackOffice\Temp.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\POSBackOffice.exe=No
+
+[Package|Backoffice Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Carousel Backoffice
+
+[Package|Backoffice Setup Package 2|IconGroups]
+Group0=Carousel Backoffice
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Backoffice Setup Package 2|Carousel Backoffice]
+Icon1=POSBackOffice.EXE
+Title1=Carousel Backoffice
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Backoffice Setup Package 2|Package]
+PackageFolder=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Pack1
+ProjectFolder=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice
+ServerSideCab=
+File1=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Pack1\setup.exe
+File2=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Pack1\Setup.Lst
+File3=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Pack1\POSBackOffice.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|AEC BACKOFFICE Deployment 1|Root]
+Package=Backoffice Setup Package 2
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Documents and Settings\Faizel\Desktop\AlAnsaar POS\MULTIUSER\BackOffice\Install Beta

@@ -1,0 +1,74 @@
+pbody=pbody+"<html>
+pbody=pbody+"<head>
+pbody=pbody+"<title>Untitled Document</title>
+pbody=pbody+"<meta http-equiv=Content-Type content=text/html; charset=iso-8859-1>
+pbody=pbody+"</head>
+
+pbody=pbody+"<body bgcolor=#FFFFFF text=#000000>
+pbody=pbody+"<div align=center>
+pbody=pbody+"  <p><b><font face=Times New Roman, Times, serif><u>PRODUCT SALES pbody=pbody+"SUMMARY</u></font></b></p>
+pbody=pbody+"  <p align=left><b><font face=Times New Roman, Times, serif size=2>Date 
+pbody=pbody+"    : DATE</font></b></p>
+pbody=pbody+"  <p align=left><b><font face=Times New Roman, Times, serif size=2>Time 
+pbody=pbody+"    : TIME</font></b></p>
+pbody=pbody+"  <p align=left><b><font face=Times New Roman, Times, serif size=2>SELECTED 
+pbody=pbody+"    DATES : SELDATE</font></b></p>
+pbody=pbody+"  <table width=100% border=1 cellspacing=1 cellpadding=0>
+pbody=pbody+"    <tr bgcolor=#000000> 
+pbody=pbody+"      <td width=11%> 
+pbody=pbody+"        <div align=left><b><font color=#FFFFFF>Stock Code</font></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=32%> 
+pbody=pbody+"        <div align=left><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Description</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=6%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Qty</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=8%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Price</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=11%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Discount</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=7%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>VAT</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=7%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Total</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=18%> 
+pbody=pbody+"        <div align=center><b><b><font size=2><font pbody=pbody+"color=#FFFFFF>Onhand</font></font></b></b></div>
+pbody=pbody+"      </td>
+pbody=pbody+"    </tr>
+pbody=pbody+"    <tr> 
+pbody=pbody+"      <td width=11%> 
+pbody=pbody+"        <div align=left><font face=Arial, Helvetica, sans-serif><font face=Arial, pbody=pbody+"Helvetica, sans-serif><font face=Arial, Helvetica, sans-serif><font pbody=pbody+"size=2></font></font></font></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=32%> 
+pbody=pbody+"        <div align=left><font face=Arial, Helvetica, sans-serif><font face=Arial, pbody=pbody+"Helvetica, sans-serif><font face=Arial, Helvetica, sans-serif><font pbody=pbody+"size=2></font></font></font></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=6%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=8%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=11%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=7%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=7%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"      <td width=18%>
+pbody=pbody+"        <div align=center><font face=Arial, Helvetica, sans-serif pbody=pbody+"size=2></font></div>
+pbody=pbody+"      </td>
+pbody=pbody+"    </tr>
+pbody=pbody+"  </table>
+pbody=pbody+"  <p align=center><b><font size=2 face=Arial, Helvetica, sans-serif>**END 
+pbody=pbody+"    OF REPORT**</font></b></p>
+pbody=pbody+"</div>
+pbody=pbody+"</body>
+pbody=pbody+"</html>

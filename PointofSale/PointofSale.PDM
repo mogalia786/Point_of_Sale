@@ -1,0 +1,213 @@
+[Root]
+Most Recent Package=AEC POS Setup Package 1
+Most Recent Deploy=AEC POS Deployment 1
+
+
+[Package|AEC POS Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Pack1
+
+[Package|AEC POS Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AEC POS Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AEC POS Setup Package 1|Files Found]
+800x600.jpg=C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\800x600.jpg
+
+[Package|AEC POS Setup Package 1|Files Released]
+
+[Package|AEC POS Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\LVbuttons.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=
+C:\WINDOWS\system32\LVbuttons.ocx=
+
+[Package|AEC POS Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\mscomct2.ocx=
+C:\WINDOWS\SYSTEM\richtx32.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\richtx32.ocx=
+
+[Package|AEC POS Setup Package 1|Files Added]
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\800x600.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\bground.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\buttondn.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\buttonup.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\closedn.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\closeup.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\radiooff.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\radioon.jpg=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\sales.mdb=
+c:\documents and settings\faizel\desktop\aec branches\pointofsale\temp.mdb=
+
+[Package|AEC POS Setup Package 1|Files Removed]
+
+[Package|AEC POS Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\OLEPRO32.DLL=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\LVbuttons.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\PointofSale.exe=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\800x600.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\bground.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseDN.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseUP.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioOFF.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioON.jpg=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Sales.mdb=Yes
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Temp.mdb=Yes
+
+[Package|AEC POS Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|AEC POS Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|AEC POS Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\AEC\PointofSale\PointofSale.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO21.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\LVbuttons.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\800x600.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\bground.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\ButtonDN.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\ButtonUP.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\CloseDN.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\CloseUP.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\RadioOFF.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\RadioON.jpg=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\Sales.mdb=$(AppPath)
+C:\WINDOWS\Desktop\AEC\PointofSale\Temp.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\PointofSale.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\LVbuttons.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\800x600.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\Sales.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\Temp.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\PointofSale.exe=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\800x600.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\bground.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseDN.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseUP.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioOFF.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioON.jpg=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Sales.mdb=$(AppPath)
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Temp.mdb=$(AppPath)
+
+[Package|AEC POS Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\AEC\PointofSale\PointofSale.exe=No
+C:\WINDOWS\Desktop\AEC\PointofSale\800x600.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\bground.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\ButtonDN.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\ButtonUP.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\CloseDN.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\CloseUP.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\RadioOFF.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\RadioON.jpg=No
+C:\WINDOWS\Desktop\AEC\PointofSale\Sales.mdb=No
+C:\WINDOWS\Desktop\AEC\PointofSale\Temp.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\PointofSale.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\800x600.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\Sales.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC\PointofSale\Temp.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\PointofSale.exe=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\800x600.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\bground.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\ButtonUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseDN.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\CloseUP.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioOFF.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\RadioON.jpg=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Sales.mdb=No
+C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Temp.mdb=No
+
+[Package|AEC POS Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Carousel Point of Sale
+
+[Package|AEC POS Setup Package 1|IconGroups]
+Group0=Carousel Point of Sale
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|AEC POS Setup Package 1|Carousel Point of Sale]
+Icon1=PointofSale.exe
+Title1=Carousel Point of Sale
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AEC POS Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Pack1
+ProjectFolder=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale
+ServerSideCab=
+File1=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Pack1\setup.exe
+File2=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Pack1\Setup.Lst
+File3=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Pack1\PointofSale.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|AEC POS Deployment 1|Root]
+Package=AEC POS Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Documents and Settings\Faizel\Desktop\AEC Branches\PointofSale\Install POS Beta1
